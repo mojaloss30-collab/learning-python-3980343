@@ -1,12 +1,13 @@
 # LinkedIn Learning Python course by Joe Marini
 # Example file for working with functions
 
-
 # define a basic function
-print("hello world!")
-name = input("What is your name? ")
-print("Nice to meet you,", name)
+def hello_func():
+  print("hello world!")
+  name = input("What is your name? ")
+  print("Nice to meet you,", name)
 
+hello_func()
 # function that takes parameters
 
 
